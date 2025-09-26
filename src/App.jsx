@@ -1,18 +1,20 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import Onepage from "./Components/Onepage";
-import Secondpage from "./Components/Secondpage";
+import Navbar from "./Components/Navbar";
+import AboutMe from "./Components/AboutMe";
 
 function App() {
-  const [count, setCount] = useState(0);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
-    <>
-      <div className="container mx-auto p-4">
-        <Onepage />
-        <Secondpage />
-      </div>
-    </>
+    <div className="container mx-auto p-4">
+      <Navbar />
+      <Onepage />
+      <AboutMe />
+    </div>
   );
 }
 

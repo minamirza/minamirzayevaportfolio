@@ -3,6 +3,7 @@ import "./App.css";
 import Onepage from "./Components/Onepage";
 import Navbar from "./Components/Navbar";
 import AboutMe from "./Components/AboutMe";
+import Experience from "./Components/Experience";
 
 function App() {
   useEffect(() => {
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Onepage />
       <AboutMe />
+      <Experience />
     </div>
   );
 }

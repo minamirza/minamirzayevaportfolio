@@ -3,7 +3,7 @@ import React from "react";
 function AboutMe() {
   return (
     <div className="w-full h-screen flex items-center justify-center">
-      <div className="w-[800px] h-[550px] backdrop-blur-2xl rounded-xl shadow-2xl shadow-black/30 flex flex-col md:flex-row items-center justify-center p-12 mt-12 gap-6">
+      <div className="w-[800px] h-[550px] bg-white/5 backdrop-blur-2xl rounded-xl shadow-2xl shadow-black/30 flex flex-col md:flex-row items-center justify-center p-12 mt-12 gap-6">
         <div
           id="about"
           className="w-full h-[600px] flex flex-col md:flex-row items-start justify-center mt-32 p-4 gap-6"

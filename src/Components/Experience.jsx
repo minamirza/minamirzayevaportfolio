@@ -11,7 +11,7 @@ export default function Experience() {
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
-          {/* --- Work / Experience Column --- */}
+          {/* --- Work --- */}
           <article className="bg-white/5 p-6 rounded-2xl shadow-lg backdrop-blur-sm">
             <h2 className="text-xl font-semibold mb-3">Work Experience</h2>
 
@@ -34,12 +34,26 @@ export default function Experience() {
               </ol>
             </section>
 
-            <section>
+            <section className="mb-5">
+              <h3 className="text-lg font-medium">GPS Solutions MMC</h3>
+              <p className="text-sm text-slate-300">
+                Telecommunications equipment operator — Full-time · 2025
+              </p>
+              <ol className="mt-3 text-amber-50 list-decimal ml-5 space-y-1 text-slate-200">
+                <li>
+                  Resolved payment issues for customers via phone and SMS.
+                </li>
+                <li>Routed requests quickly to the correct departments.</li>
+                <li>Prepared reports on customer inquiries and trends.</li>
+              </ol>
+            </section>
+
+            <section className="mb-5">
               <h3 className="text-lg font-medium">GPS Solutions MMC</h3>
               <p className="text-sm text-slate-300">
                 Operator & Customer Service — Full-time · 2023 - 2025
               </p>
-              <ol className="mt-3 list-decimal ml-5 space-y-1 text-slate-200">
+              <ol className="mt-3 text-amber-50 list-decimal ml-5 space-y-1 text-slate-200">
                 <li>
                   Resolved payment issues for customers via phone and SMS.
                 </li>
@@ -49,7 +63,7 @@ export default function Experience() {
             </section>
           </article>
 
-          {/* --- Education Column --- */}
+          {/* --- Education--- */}
           <article className="bg-white/5 p-6 rounded-2xl shadow-lg backdrop-blur-sm">
             <h2 className="text-xl font-semibold mb-3">Education</h2>
 
@@ -64,7 +78,7 @@ export default function Experience() {
               </p>
             </section>
 
-            <section>
+            <section className="mb-5">
               <h3 className="text-lg font-medium">
                 Baku State College of Communications and Transport
               </h3>
@@ -78,11 +92,11 @@ export default function Experience() {
             </section>
           </article>
 
-          {/* --- Volunteering Column --- */}
+          {/* --- Volunteering --- */}
           <article className="bg-white/5 p-6 rounded-2xl shadow-lg backdrop-blur-sm">
             <h2 className="text-xl font-semibold mb-3">Volunteering</h2>
 
-            <section>
+            <section className="mb-5">
               <h3 className="text-lg font-medium">ASAN Service Center No. 4</h3>
               <p className="text-sm text-slate-300">
                 Volunteering · 2022 - 2023

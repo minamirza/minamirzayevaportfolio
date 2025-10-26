@@ -1,17 +1,17 @@
 body {
   background: hsla(139, 72%, 83%, 1);
 
-  background: linear-gradient(90deg, hsla(139, 72%, 83%, 1) 0%, #4867f4 100%);
+  background: linear-gradient(90deg, hsl(213, 66%, 60%) 0%, #4867f4 100%);
 
   background: -moz-linear-gradient(
     90deg,
-    hsla(139, 72%, 83%, 1) 0%,
+    hsl(213, 66%, 60%) 0%,
     hsla(229, 89%, 62%, 1) 100%
   );
 
   background: -webkit-linear-gradient(
     90deg,
-    hsla(139, 72%, 83%, 1) 0%,
+    hsl(213, 66%, 60%) 0%,
     hsl(229, 89%, 62%) 100%
   );
 
